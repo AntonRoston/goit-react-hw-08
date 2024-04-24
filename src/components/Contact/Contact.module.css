@@ -1,0 +1,37 @@
+.contactWrapper {
+    border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+    display: flex;
+    width: 350px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../../img/bgImg.webp'); */
+    background-position: 10% 50%;
+    color: black;
+}
+
+.deleteBtn {
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    /* color: #ffffff; */
+}
+
+.contactIcon {
+    margin-right: 10px;
+}
+
+.contactText {
+    /* font-style: 40px; */
+    font-weight: 500;
+    margin: 0;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

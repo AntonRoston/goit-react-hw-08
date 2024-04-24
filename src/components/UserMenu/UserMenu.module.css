@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.logoutBtn {
+    text-transform: uppercase;
+    height: 40px;
+    width: 120px;
+}

@@ -1,0 +1,44 @@
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  background-color: transparent;
+  padding: 20px;
+  width: 350px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: black;
+}
+
+.field {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  background-color: transparent;
+  /* border-radius: 5px; */
+  padding: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.title {
+    text-align: center;
+    color: black;
+}
+
+.signUpBtn {
+  padding: 10px 15px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.errorMessage {
+  color: red;
+}

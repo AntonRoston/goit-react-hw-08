@@ -1,0 +1,34 @@
+.searchWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 170px;
+    position: relative;
+    align-items: center;
+    
+}
+
+.input {
+padding: 8px;
+border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+outline: none;
+width: 400px;
+background-color: transparent;
+}
+
+.input::placeholder {
+    color: blue
+}
+
+.icon {
+    position: absolute;
+    left: 360px;
+    top: 55px;
+}
+
+.searchText {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
