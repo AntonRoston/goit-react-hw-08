@@ -68,7 +68,7 @@ const LoginForm = () => {
           title="Click to register user"
           aria-label="Add new mailbox"
         >
-          Sign In 😜
+          Sign In 
         </button>
       </Form>
     </Formik>
